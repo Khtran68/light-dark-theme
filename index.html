@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Dark Mode</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Custom Title Here</h1>
+            <h2>Welcome to the Website!</h2>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+        <h1>About</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Web Innovation</h2>
+                <img src="./images/undraw_code_thinking_light.svg" alt="Code Thinking" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Proud Coder</h2>
+                <img src="./images/undraw_proud_coder_light.svg" alt="Proud Coder" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Problem Solver</h2>
+                <img src="./images/undraw_source_code_light.svg" alt="Source Code" id="image3">
+            </div>
+        </div>  
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident minus sint maxime! Molestiae, aperiam voluptatem sed illo excepturi similique atque laborum, iusto eum fugit consequuntur dicta! Quod, voluptatem nulla.</div>
+    </section>
+    <!-- Contacts -->
+    <section id="contacts">
+        <div class="social-icons">
+            <i class="fab fa-brands fa-github"></i>
+            <i class="fab fa-brands fa-linkedin"></i>
+            <i class="fab fa-solid fa-envelope"></i>
+            <i class="fab fa-brands fa-youtube"></i>
+            <i class="fab fa-brands fa-twitter"></i>
+            <i class="fab fa-brands fa-twitch"></i>
+            <i class="fab fa-brands fa-instagram-square"></i>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
