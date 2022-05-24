@@ -51,7 +51,7 @@ function loadTheme(currentTheme){
     if(currentTheme === DARK_THEME){
         toggleSwitch.checked = true;
         document.documentElement.setAttribute('data-theme', DARK_THEME);
-        toggleDarkLightMode(true);
+        toggleDarkLightMode(DARK_THEME);
     }
 }
 
